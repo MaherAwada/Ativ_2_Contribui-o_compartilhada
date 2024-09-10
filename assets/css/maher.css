@@ -1,0 +1,173 @@
+body {
+    font-family: 'inter', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: #1c1f21;
+    width: 100vw; 
+    overflow-x: hidden;
+}
+
+main {
+    width: 100%; 
+    max-width: 1200px; 
+    padding: 0 20px; 
+    box-sizing: border-box; 
+}
+
+header, footer {
+    width: 100%; 
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0 / 8%);
+}
+
+.menu {
+    margin-top: 50px; 
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    height: 50px;
+}
+
+.menu li {
+    display: inline-block;
+    width: 90px;
+    margin-right: 20px;
+}
+
+.menu > li a {
+    color: white;
+    position: relative;
+    height: 100%;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.menu > li a:hover {
+    color: #ed195c;
+}
+
+
+#sobre {
+    text-align: center;
+}
+
+#sobre img {
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+#sobre strong {
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+#sobre strong:hover {
+    color: #ed195c;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 2.5rem; 
+    color: #ed195c; 
+    font-family: 'inter', sans-serif; 
+    margin-bottom: 20px; 
+}
+
+h3 {
+    font-size: 2rem; 
+    color: #ed195c; 
+
+    font-family: 'inter', sans-serif; 
+    margin-bottom: 15px;
+}
+
+p {
+    color: white;
+}
+
+ol li,
+ul li {
+    color: white;
+}
+
+.divider {
+    border: 0;
+    border-top: 1px solid #ed195c; 
+    margin: 80px 0 80px 0; 
+    width: 100%; 
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px; 
+    justify-content: center;
+}
+
+.image-container {
+    position: relative;
+    width: 300px; 
+    height: 200px; 
+    flex: 1 1 auto; 
+    max-width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.image-container span {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.6); 
+    color: white;
+    padding: 10px;
+    font-size: 16px; 
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.menufooter {
+    background-color: #101213;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.menufooter a {
+    color: white;
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+}
+
+.menufooter a:hover {
+    color: #ed195c;
+    text-decoration: underline;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
